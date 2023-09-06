@@ -2,3 +2,26 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    background-color: #E3B23C;
+}
+.container{
+    display: grid;
+    place-items: center;
+    padding-top: 15%;
+   
+}
+#contact{
+    background-color: #D64933;
+    height: 300px;
+    width: 400px;
+   position: relative;
+   padding: 50px;
+   place-items: center;
+    
+}
+label{
+    margin: 50px;
+    font-size: larger;
+    
+}
