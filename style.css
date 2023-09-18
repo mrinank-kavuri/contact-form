@@ -20,8 +20,11 @@ body{
    place-items: center;
     
 }
-label{
-    margin: 50px;
+.titles{
+    padding-bottom: 50px;
     font-size: larger;
     
+}
+form{
+   margin-bottom: 40px;
 }
