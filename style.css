@@ -8,7 +8,7 @@ body{
 .container{
     display: grid;
     place-items: center;
-    padding-top: 15%;
+    padding-top: 15%;   
    
 }
 #contact{
@@ -18,13 +18,40 @@ body{
    position: relative;
    padding: 50px;
    place-items: center;
-    
+   border-radius: 30px;
+}  
+.labels,#box{
+    margin-top: 30px;
 }
-.titles{
-    padding-bottom: 50px;
-    font-size: larger;
-    
+#box{
+    margin-left: 25px;
+    border-radius: 6px;
+    border: none;
+    height: 25px;
 }
-form{
-   margin-bottom: 40px;
+.labels{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+#cnc{
+    margin-left: 140px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.74); 
+}
+#button{
+    margin-top: 30px;
+    height: 30px;
+    width:60px;
+    background-color: #ecab14;
+    border: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#button:hover{
+    background-color: rgba(20, 19, 20, 0.877);
+    color: rgb(235, 206, 206);
+    cursor: pointer;
+
 }
